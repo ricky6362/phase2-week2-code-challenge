@@ -1,0 +1,48 @@
+/* Robots Container */
+.favorite-bots{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    background-color: greenyellow;
+}
+
+/* Media queries */
+@media screen and (min-width: 1040px) {
+    .favorite-bots{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 992px) {
+    .favorite-bots{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .favorite-bots{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .favorite-bots{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .favorite-bots{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+}
+  

@@ -1,0 +1,51 @@
+/* Botcard Styling */
+.card-container{
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.img-container {
+    width: 100%;
+    height: 35vh;
+    background-color: lightgrey;
+}
+
+.img-container img{
+    width: 100%;
+    height: 35vh;
+}
+
+.bot-info{
+    width: 100%;
+    background-color: #fff;
+}
+
+.name-container{
+    width: 80%;
+    margin: 0px auto;
+    
+}
+
+.name-container p{
+    margin: 10px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.catchphrase{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.icon-container{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
